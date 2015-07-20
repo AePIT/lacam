@@ -51,7 +51,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover {
   color: #2e2e2e;
   background-color: #ffffff;
-  /*border: 0.3px solid #2e2e2e;*/
+  border: 0.3px solid #2e2e2e;
   -webkit-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.75);
@@ -68,7 +68,7 @@ ul.social-buttons li a:hover {
   transform: scale(0.95, 0.95);
 }
 #history .thumbnail svg:hover #tspan37 {
-  font-size: 20px;
+  font-size: 19.867px;
 }
 #history .thumbnail p {
   transition: .3s;
