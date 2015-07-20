@@ -1,0 +1,84 @@
+#features {
+  margin: 20px;
+  background-color: transparent;
+  padding: 0 10px;
+  height: 100%;
+}
+#features .thumbnail {
+  height: 350px;
+  -webkit-filter: grayscale(100%) opacity(40%);
+          filter: grayscale(100%) opacity(40%);
+  transition: all 0.2s;
+  margin: 25px 0;
+  background: transparent;
+  border: none;
+}
+#features .thumbnail img {
+  height: 80%;
+  width: 80%;
+  transition: all 0.2s;
+  margin-top: 10%;
+}
+#features .thumbnail .caption {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 10%;
+  transition: all 0.2s;
+  background-color: transparent;
+  width: 80%;
+  text-align: center;
+}
+#features .thumbnail .caption h1,
+#features .thumbnail .caption h2,
+#features .thumbnail .caption h3,
+#features .thumbnail .caption h4 {
+  text-shadow: 0 0 10px #000000;
+}
+#features .thumbnail .caption p {
+  color: transparent;
+  transition: all 0.2s;
+  text-shadow: 0 0 10px #000000;
+  font-size: 1em;
+  font-style: normal;
+}
+#features .thumbnail:hover,
+#features .thumbnail.current {
+  box-shadow: 1px 2px 20px 2px black;
+  -webkit-box-shadow: 1px 2px 20px 2px black;
+  -moz-box-shadow: 1px 2px 20px 2px black;
+  -webkit-transform: translate(0px, -20px);
+          transform: translate(0px, -20px);
+  -webkit-filter: opacity(100%) grayscale(0%) blur(0px);
+          filter: opacity(100%) grayscale(0%) blur(0px);
+}
+#features .thumbnail:hover .caption,
+#features .thumbnail.current .caption {
+  background-color: rgba(40, 49, 40, 0.69);
+}
+#features .thumbnail:hover .caption p,
+#features .thumbnail.current .caption p {
+  color: #ffffff;
+  font-size: 1.3em;
+}
+#features .feature.current .thumbnail {
+  box-shadow: 1px 2px 20px 2px black;
+  -webkit-box-shadow: 1px 2px 20px 2px black;
+  -moz-box-shadow: 1px 2px 20px 2px black;
+  -webkit-transform: translate(0px, -20px) scale(1.1, 1.1);
+          transform: translate(0px, -20px) scale(1.1, 1.1);
+  -webkit-filter: opacity(100%) grayscale(0%) blur(0px);
+          filter: opacity(100%) grayscale(0%) blur(0px);
+}
+#features .feature.current .thumbnail .caption {
+  background-color: rgba(7, 8, 7, 0.8);
+}
+#features .feature.current .thumbnail .caption p {
+  color: #ffffff;
+  font-size: 1.3em;
+}
+#features .feature.current .thumbnail img {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}

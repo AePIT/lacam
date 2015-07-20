@@ -1,0 +1,82 @@
+#features {
+  margin: 20px;
+  background-color: transparent;
+  padding: 0 10px;
+  -webkit-box-shadow: inset 0 0 20px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0 0 20px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 20px 8px rgba(0, 0, 0, 0.75);
+  height: 370px;
+}
+#features .thumbnail {
+  height: 350px;
+  width: 350px;
+  filter: grayscale(80%) opacity(100%);
+  transition: all 0.2s;
+  margin: 25px 0;
+  background: transparent;
+  border: none;
+}
+#features .thumbnail img {
+  height: 80%;
+  width: 80%;
+  transition: all 0.2s;
+  margin-top: 10%;
+  filter: grayscale(80%) opacity(100%);
+}
+#features .thumbnail .caption {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 10%;
+  transition: all 0.2s;
+  background-color: transparent;
+  width: 80%;
+  text-align: center;
+}
+#features .thumbnail .caption h1,
+#features .thumbnail .caption h2,
+#features .thumbnail .caption h3,
+#features .thumbnail .caption h4 {
+  text-shadow: 0 0 10px #000000;
+}
+#features .thumbnail .caption p {
+  color: transparent;
+  transition: all 0.2s;
+  text-shadow: 0 0 10px #000000;
+  font-size: 1.4em;
+  font-style: normal;
+}
+#features .thumbnail:hover,
+#features .thumbnail.active {
+  box-shadow: 1px 2px 20px 2px black;
+  -webkit-box-shadow: 1px 2px 20px 2px black;
+  -moz-box-shadow: 1px 2px 20px 2px black;
+  transform: translate(0px, -20px);
+  filter: opacity(100%) grayscale(0%) blur(0px);
+}
+#features .thumbnail:hover .caption,
+#features .thumbnail.active .caption {
+  background-color: rgba(38, 124, 179, 0.61);
+}
+#features .thumbnail:hover .caption p,
+#features .thumbnail.active .caption p {
+  color: #ffffff;
+}
+#features .feature.active .thumbnail {
+  box-shadow: 1px 2px 20px 2px black;
+  -webkit-box-shadow: 1px 2px 20px 2px black;
+  -moz-box-shadow: 1px 2px 20px 2px black;
+  transform: translate(0px, -20px) scale(1.1, 1.1);
+  filter: opacity(100%) grayscale(0%) blur(0px);
+}
+#features .feature.active .thumbnail .caption {
+  background-color: rgba(38, 124, 179, 0.61);
+}
+#features .feature.active .thumbnail .caption p {
+  color: #ffffff;
+}
+#features .feature.active .thumbnail img {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
