@@ -37,3 +37,6 @@ section.gallery-section .carousel-indicators .active {
 .section-clients h1.header-text {
   font-size: 2.5em;
 }
+.section-clients .logos li img {
+  max-width: 200px;
+}
