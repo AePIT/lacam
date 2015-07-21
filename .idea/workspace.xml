@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e65acdda-e084-496f-8985-0bef99527fc9" name="Default" comment="changed a few page stypes according to rozelle's suggestions">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_nav.jade" afterPath="$PROJECT_DIR$/src/includes/_nav.jade" />
+    <list default="true" id="e65acdda-e084-496f-8985-0bef99527fc9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +27,38 @@
       <file leaf-file-name="custom-main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/custom-main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71086264">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5654952">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_employees.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/includes/sections/about/_employees.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/includes/sections/contact/contact.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/includes/sections/intro/quote.jade" />
         <option value="$PROJECT_DIR$/src/includes/sections/footer/_footer.jade" />
         <option value="$PROJECT_DIR$/src/includes/_scripts.jade" />
-        <option value="$PROJECT_DIR$/src/includes/sections/contact/contact.jade" />
         <option value="$PROJECT_DIR$/src/index.jade" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/includes/sections/about/_team.jade" />
@@ -93,11 +121,14 @@
         <option value="$PROJECT_DIR$/src/includes/sections/about/svgs/_bee-svg.html" />
         <option value="$PROJECT_DIR$/src/includes/sections/about/_history.jade" />
         <option value="$PROJECT_DIR$/src/index2.html" />
-        <option value="$PROJECT_DIR$/src/includes/sections/clients/clients.jade" />
         <option value="$PROJECT_DIR$/src/includes/sections/about/about.jade" />
-        <option value="$PROJECT_DIR$/src/includes/sections/about/_employees.jade" />
         <option value="$PROJECT_DIR$/src/includes/sections/intro/_header.jade" />
         <option value="$PROJECT_DIR$/src/includes/_nav.jade" />
+        <option value="$PROJECT_DIR$/src/assets/img/clients/structa_group_logo.svg" />
+        <option value="$PROJECT_DIR$/src/includes/sections/about/_employees.jade" />
+        <option value="$PROJECT_DIR$/src/assets/img/clients/structa-group-logo.svg" />
+        <option value="$PROJECT_DIR$/src/includes/sections/clients/clients.jade" />
+        <option value="$PROJECT_DIR$/src/includes/sections/contact/contact.jade" />
         <option value="$PROJECT_DIR$/src/custom-main.less" />
       </list>
     </option>
@@ -170,64 +201,6 @@
               <option name="myItemId" value="lacam.co.za" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index.jade" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lacam.co.za" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -252,16 +225,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\assets\img\clients" />
       <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\assets\docs" />
       <recent name="C:\Users\Alpha\Desktop\aep\lacam\prod" />
       <recent name="C:\Users\Alpha\Desktop\aep\lacam\prod\assets\img\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes" />
+      <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\assets\img\clients" />
       <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes\sections\about\svgs" />
       <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes\sections\about" />
       <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes\sections\services" />
-      <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes\sections\intro" />
-      <recent name="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\src\includes\sections\who-we-are" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -392,7 +366,55 @@
       <option name="project" value="LOCAL" />
       <updated>1437469375236</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="linked to ebrochure">
+      <created>1437469399262</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1437469399262</updated>
+    </task>
+    <task id="LOCAL-00013" summary="generated file">
+      <created>1437469420408</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1437469420408</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added structa group logo&#10;">
+      <created>1437470147315</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470147315</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added structa group logo&#10;moved client logos to seperate folder">
+      <created>1437470610418</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470610418</updated>
+    </task>
+    <task id="LOCAL-00016" summary="removed unnecessary comment">
+      <created>1437470641584</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470641584</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added structa logo, changed folder structure for logos">
+      <created>1437470677195</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470677195</updated>
+    </task>
+    <task id="LOCAL-00018" summary="made logos bigger">
+      <created>1437470949764</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470949764</updated>
+    </task>
+    <task id="LOCAL-00019" summary="removed envelope icon">
+      <created>1437470965299</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1437470965299</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -442,6 +464,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="initial&#10;" />
     <MESSAGE value="updated with brochure info" />
     <MESSAGE value="changed folders" />
@@ -453,7 +476,15 @@
     <MESSAGE value="webstorm&#10;" />
     <MESSAGE value="removed unnecessary file" />
     <MESSAGE value="removed links to facebook and linkedin" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed links to facebook and linkedin" />
+    <MESSAGE value="linked to ebrochure" />
+    <MESSAGE value="generated file" />
+    <MESSAGE value="added structa group logo&#10;" />
+    <MESSAGE value="added structa group logo&#10;moved client logos to seperate folder" />
+    <MESSAGE value="removed unnecessary comment" />
+    <MESSAGE value="added structa logo, changed folder structure for logos" />
+    <MESSAGE value="made logos bigger" />
+    <MESSAGE value="removed envelope icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed envelope icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,32 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/sections/footer/_footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11383928">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/sections/contact/contact.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24665178">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/_scripts.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,6 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29438204">
           <caret line="1551" column="28" selection-start-line="1551" selection-start-column="28" selection-end-line="1551" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,6 +695,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/clients/1steel_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/clients/structa-group-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0272">
+          <caret line="1" column="94" selection-start-line="1" selection-start-column="94" selection-end-line="1" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/clients/aep-logo-group.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44325152">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/sections/clients/clients.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41717792">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/sections/footer/_footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15644172">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/sections/contact/contact.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/sections/about/_employees.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -693,18 +756,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/sections/clients/clients.jade">
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.756135">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/custom-main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71086264">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5654952">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
       </provider>
