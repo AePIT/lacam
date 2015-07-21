@@ -9148,7 +9148,7 @@ blockquote {
 }
 
 .content-section-a {
-    background-image: url(../img/quality3.png);
+    background-image: url(../img/quality3.jpg);
     background-size: 50% auto;
     /*background-position-x: 30%;*/
 }
@@ -9181,7 +9181,7 @@ blockquote {
 
 .content-section-c {
     padding: 50px 0;
-    background-image: url(../img/aim2.png);
+    background-image: url(../img/aim2.jpg);
     background-position: 100% 40%;
 }
 
@@ -9212,7 +9212,7 @@ blockquote {
 
 .bee {
     padding: 50px 0;
-    background-image: url(../img/bee_cert.png);
+    /*background-image: url(../img/bee_cert.jpg);*/
     height: 600px;
     background-position: 0 10%;
 }
