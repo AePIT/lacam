@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65acdda-e084-496f-8985-0bef99527fc9" name="Default" comment="changed a few page stypes according to rozelle's suggestions">
-      <change type="DELETED" beforePath="D:\Alpha\Documents\work\aep\projects\website development\in progress\lacam.co.za\files\application.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/sections/intro/_header.jade" afterPath="$PROJECT_DIR$/src/includes/sections/intro/_header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_nav.jade" afterPath="$PROJECT_DIR$/src/includes/_nav.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -382,7 +380,19 @@
       <option name="project" value="LOCAL" />
       <updated>1437469318690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed unnecessary file">
+      <created>1437469345735</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1437469345735</updated>
+    </task>
+    <task id="LOCAL-00011" summary="removed links to facebook and linkedin">
+      <created>1437469375236</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1437469375236</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -441,7 +451,9 @@
     <MESSAGE value="added E-Brochure&#10;" />
     <MESSAGE value="changed a few page stypes according to rozelle's suggestions" />
     <MESSAGE value="webstorm&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="webstorm&#10;" />
+    <MESSAGE value="removed unnecessary file" />
+    <MESSAGE value="removed links to facebook and linkedin" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed links to facebook and linkedin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
