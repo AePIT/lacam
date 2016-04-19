@@ -6,8 +6,7 @@
 }
 #features .thumbnail {
   height: 350px;
-  -webkit-filter: grayscale(100%) opacity(40%);
-          filter: grayscale(100%) opacity(40%);
+  filter: grayscale(100%) opacity(40%);
   transition: all 0.2s;
   margin: 25px 0;
   background: transparent;
@@ -47,10 +46,8 @@
   box-shadow: 1px 2px 20px 2px black;
   -webkit-box-shadow: 1px 2px 20px 2px black;
   -moz-box-shadow: 1px 2px 20px 2px black;
-  -webkit-transform: translate(0px, -20px);
-          transform: translate(0px, -20px);
-  -webkit-filter: opacity(100%) grayscale(0%) blur(0px);
-          filter: opacity(100%) grayscale(0%) blur(0px);
+  transform: translate(0px, -20px);
+  filter: opacity(100%) grayscale(0%) blur(0px);
 }
 #features .thumbnail:hover .caption,
 #features .thumbnail.current .caption {
@@ -65,10 +62,8 @@
   box-shadow: 1px 2px 20px 2px black;
   -webkit-box-shadow: 1px 2px 20px 2px black;
   -moz-box-shadow: 1px 2px 20px 2px black;
-  -webkit-transform: translate(0px, -20px) scale(1.1, 1.1);
-          transform: translate(0px, -20px) scale(1.1, 1.1);
-  -webkit-filter: opacity(100%) grayscale(0%) blur(0px);
-          filter: opacity(100%) grayscale(0%) blur(0px);
+  transform: translate(0px, -20px) scale(1.1, 1.1);
+  filter: opacity(100%) grayscale(0%) blur(0px);
 }
 #features .feature.current .thumbnail .caption {
   background-color: rgba(7, 8, 7, 0.8);

@@ -1,0 +1,81 @@
+// Navigation
+nav.navbar.navbar-default.navbar-fixed-top.topnav(role='navigation')
+    .container.topnav
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand.topnav(href='#')
+                img.nav-logo(style='  width: 60%; margin-top: 0px; margin-left: -100px;', src='assets/img/lacam_logo.png')
+
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+                li
+                    a.page-scroll(href='#')
+                        i.fa.fa-home
+                        |  Home
+                li.dropdown
+                    a.page-scroll.dropdown-toggle(href='#', data-toggle='dropdown')
+                        i.fa.fa-gears
+                        |                         Services
+                    ul.dropdown-menu.dropdown-menu-left(role='menu', aria-labelledby='menu1')
+                        li(role='presentation')
+                            a(href='#services', role='menuitem') Office Cleaning
+                        li(role='presentation')
+                            a(href='#services', role='menuitem') Ablution Facilities
+                        li(role='presentation')
+                            a(href='#services', role='menuitem') Kitchen Cleaning
+                        li(role='presentation')
+                            a(href='#services', role='menuitem') Industrial Cleaning
+                li.dropdown
+                    a.page-scroll.dropdown-toggle(href='#', data-toggle='dropdown')
+                        i.fa.fa-info-circle
+                        |  About Us
+                    ul.dropdown-menu.dropdown-menu-left(role='menu', aria-labelledby='menu1')
+                        li(role='presentation')
+                            a(href='#about', role='menuitem') History
+                        li(role='presentation')
+                            a(role='menuitem', href='#team') Management
+                        li(role='presentation')
+                            a(role='menuitem', href='#gallery') Employees
+                        li.divider(role='presentation')
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/bee.pdf') BBBEE Level 2 Certificate
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/sheq-management-policy.pdf') Quality (SHEQ)
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/letter-of-good-standing.pdf')
+                                | Letter of Good
+                                | Standing
+                        li.divider(role='presentation')
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/lacam_brochure.pdf') E-Brochure
+                li
+                    a.page-scroll(href='#gallery')
+                        i.fa.fa-image
+                        |  Gallery
+                li
+                    a.page-scroll(href='#clients')
+                        i.fa.fa-users
+                        |  Clients
+                li.dropdown
+                    a.page-scroll.dropdown-toggle(href='#regulatory', data-toggle='dropdown')
+                        i.fa.fa-gavel
+                        |  Regulatory
+                    ul.dropdown-menu.dropdown-menu-left(role='menu', aria-labelledby='menu1')
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/bee-certificate.pdf') BBBEE Level 2 Certificate
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/sheq-management-policy.pdf') Quality (SHEQ)
+                        li(role='presentation')
+                            a(role='menuitem', href='assets/docs/letter-of-good-standing.pdf')
+                                | Letter of Good
+                                | Standing
+                li
+                    a.contact-button.page-scroll(href='#contact')
+                        i.fa.fa-phone
+                        span  Get In Touch

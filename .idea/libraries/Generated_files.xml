@@ -2,11 +2,13 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/prod/assets/js/script.js" />
+        <item url="file://$PROJECT_DIR$/src/assets/js/script.js" />
+        <item url="file://$PROJECT_DIR$/src/assets/js/init.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/prod/assets/js/script.js" />
+      <root url="file://$PROJECT_DIR$/src/assets/js/script.js" />
+      <root url="file://$PROJECT_DIR$/src/assets/js/init.js" />
     </CLASSES>
     <SOURCES />
   </library>

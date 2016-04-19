@@ -1,0 +1,30 @@
+script(src='assets/js/main.min.js')
+// <script src="assets/js/bootstrap.js"></script>
+// <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+script(src='assets/js/feature-anim.js')
+script(type='text/javascript').
+    $(document).ready(function () {
+        var s = skrollr.init();
+    });
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    $('#quality').hover(function () {
+        $('#cert').addClass('fa-spin');
+    }, function () {
+        $('#cert').removeClass('fa-spin');
+    });
+    $('.dropdown').hover(function () {
+        $('.dropdown-toggle', this).trigger('click');
+    });
