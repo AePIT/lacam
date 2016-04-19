@@ -1,51 +1,6 @@
 a(name='highlights')
-#quality.content-section-a.bcg(data-bottom-top='background-position: 80% 30%;', data-top-bottom='background-position: 120% -10%;')
-   .container
-      a(href='http://lacam.co.za/images/doc20141001140406.pdf', style='color:black;')
-         .row
-            .col-lg-5.col-sm-6.box(data-bottom='background-color:rgba(255, 255, 255,0);', data-bottom-center='background-color:rgba(255, 255, 255,0);', data-center='background-color:rgba(255, 255, 255,0.5);')
-               hr.section-heading-spacer
-               .clearfix(style='text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-               h2.section-heading(style='opacity:1; text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-                  i#cert.fa.fa-certificate.fa-spin-hover
-                  |                             Our SHEQ Policy
-               p.lead(style='opacity:1; text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-                  | We pride ourselves in following our Safety, Health, Environment and Quality policy in
-                  | detail, by ensuring that our work is planned and controlled in such a manner that we meet
-                  | the requirements of our customers, using resources, skilled staff and equipment to ensure
-                  | customer requirements and satisfaction.
+include _sheq_policy
 
-.content-section-b(data-bottom-top='background-position: 100% 60%;', data-top-bottom='background-position: 100% 20%;')
-   .container
-      .row
-         .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
-            hr.section-heading-spacer
-            .clearfix(style='text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-            h2.section-heading(style='opacity:1; text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-               i.fa.fa-heartbeat
-               |                         We care about your health
-            p.lead(style='opacity:1; text-shadow: 0.05em 0.05em 0.1em rgb(255, 255, 255);')
-               | Lacam considers health and safety as a priority and realises that it is everyone’s
-               | responsibility to ensure that every step is taken to provide and maintain a working environment
-               | that is safe and free from health risks.
-         .col-lg-5.col-sm-pull-6.col-sm-6
-            img.img-responsive(src='assets/img/health2.png', alt='')
-   // /.container
-// /.content-section-b
-.content-section-c(data-bottom-top='background-position: 100% 0%;', data-top-bottom='background-position: 100% 50%;')
-   .container
-      .row
-         .col-lg-5.col-sm-6(style='color:#EEE; opacity:1; background-color: rgba(30,30,30,0.5);')
-            hr.section-heading-spacer
-            .clearfix
-            h2.section-heading
-               i.fa.fa-crosshairs
-               |                         Our Aim
-            p.lead
-               | Specialist knowledge, personal, and dedicated service.
-               br
-               |  We deliver the service on time and
-               |                         correctly, keep in constant communication with you, and build long term relationships.
-               i.fa.fa-smile-o
-         .col-lg-5.col-lg-offset-2.col-sm-6
-            // <img class="img-responsive" src="img/Office-Cleaning-web.jpg" alt="">
+include _health
+
+include _aim
